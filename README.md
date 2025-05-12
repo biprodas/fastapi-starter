@@ -21,5 +21,5 @@ $ python -m pip install --upgrade pip
 $ pip install -r requirements.txt
 
 # Finally run the program
-$ python main.py
+$ fastapi dev main.py
 ```
