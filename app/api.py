@@ -8,7 +8,7 @@ app = FastAPI(
 
 from app.modules.todo.routers import route as todo_route
 from app.modules.auth.routers import route as auth_route
-
+from app.modules.book.routers import route as book_route
 
 @app.get("/")
 def read_root():
@@ -28,4 +28,4 @@ def read_root():
 # Include router
 app.include_router(auth_route)
 app.include_router(todo_route)
-
+app.include_router(book_route)

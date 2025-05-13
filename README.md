@@ -24,4 +24,6 @@ $ pip install -r requirements.txt
 $ python main.py
 # or
 $ fastapi dev app.py
+# or
+$ python -m uvicorn app.api:app --reload
 ```
